@@ -16,21 +16,26 @@ int main() {
 
     // Implementação de Movimentação da Rainha
     // Sugestão: Utilize uma estrutura de repetição para simular a movimentação da Rainha para a esquerda.
-    linha = 4;
-    coluna = 4;
+
    
     for (int i = 0; i < 5; i++) {
         prinft("Direita\n");
     }
 
-       for (int i = 1; i < 4; i++){
-         printf("Diagonal %d\n", i);
-    }
+      for (int i = 0; i < 5; i++){
+    printf("Cima\n"); 
+    printf("Baixo\n"); 
+    printf("Esquerda\n");
+    printf("Direita\n");
+    printf("Cima Esquerda\n"); 
+    printf("Direita\n");
+}
+
 
    
 
-    for (int i = 1; i < 4; i++){
-    printf("Esquerda %d\n", i);
+    for (int i = 0; i < 8; i++){
+    printf("Esquerda\n");
 }
 
 
