@@ -23,17 +23,15 @@ int main() {
         prinft("Direita\n");
     }
 
+       for (int i = 1; i < 4; i++){
+         printf("Diagonal %d\n", i);
+    }
+
+   
+
     for (int i = 1; i < 4; i++){
-         printf("(%d, %d)\n", linha + i, coluna - i);
-    }
-
-      for (int coluna = 5; coluna < 8; coluna++) {
-        printf("(%d, %d)\n", linha, coluna);
-    }
-
-    for (int coluna = 3; coluna >= 0; coluna--) {
-        printf("(%d, %d)\n", linha, coluna);
-    }
+    printf("Esquerda %d\n", i);
+}
 
 
     // Nível Aventureiro - Movimentação do Cavalo
